@@ -1,6 +1,6 @@
 {
   "name": "@carolita03/directus-extension-sql-panel",
-  "author": "Quentin Grancher <qgrancher@carolita03.com>",
+  "author": "Carolita03",
   "license": "MIT",
   "version": "0.4.4",
   "icon": "extension",
@@ -47,8 +47,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "directus-extension build",
-    "dev": "directus-extension build -w --no-minify",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js",
     "link": "directus-extension link ../../extensions",
     "publish": "npm run build && npm publish"
   },
@@ -62,6 +62,9 @@
     "mysql2": "^3.6.2",
     "nock": "^13.3.4",
     "oracledb": "^6.2.0",
-    "pg-query-stream": "^4.5.3"
+    "pg-query-stream": "^4.5.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
   }
 }
