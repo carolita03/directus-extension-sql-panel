@@ -1,6 +1,6 @@
 {
-  "name": "@premieroctet/directus-extension-sql-panel",
-  "author": "Quentin Grancher <qgrancher@premieroctet.com>",
+  "name": "@carolita03/directus-extension-sql-panel",
+  "author": "Quentin Grancher <qgrancher@carolita03.com>",
   "license": "MIT",
   "version": "0.4.4",
   "icon": "extension",
@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/premieroctet/directus-extension-sql-panel.git"
+    "url": "https://github.com/carolita03/directus-extension-sql-panel.git"
   },
   "bugs": {
-    "url": "https://github.com/premieroctet/directus-extension-sql-panel/issues"
+    "url": "https://github.com/carolita03/directus-extension-sql-panel/issues"
   },
   "directus:extension": {
     "host": "^10.6.3",
